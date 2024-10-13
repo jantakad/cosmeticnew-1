@@ -5,6 +5,7 @@ const postController = require('../controllers/postController');
 const productController = require('../controllers/productController');
 const productDetailController = require('../controllers/product_detailController');
 
+
 // User routes
 router.post('/users', userController.createUser);
 router.get('/users', userController.getUsers);

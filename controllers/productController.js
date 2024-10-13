@@ -47,7 +47,7 @@ exports.updateProduct = async (req, res) => {
     }
 };
 
-// สินค้า
+// ลบสินค้า
 exports.deleteProduct = async (req, res) => {
     try {
         const product = await Product.findByPk(req.params.id);
