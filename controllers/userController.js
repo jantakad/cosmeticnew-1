@@ -61,7 +61,7 @@ res.json({ message: 'User deleted' });
 res.status(500).json({ error: err.message });
 }
 };
-// 
+// login ด้วย email และ password
 exports.login = async (req, res) => {
     try {
     const user = await User.findOne(
