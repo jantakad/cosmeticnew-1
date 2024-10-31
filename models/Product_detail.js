@@ -24,10 +24,6 @@ const Product_detail = sequelize.define('Product_detail', {
   weight: {
     type: DataTypes.FLOAT,
     allowNull: false
-  },
-  imageUrl: {  // ฟิลด์ใหม่สำหรับเก็บ URL รูปภาพ
-    type: DataTypes.STRING,
-    allowNull: true  // ตั้งค่า allowNull เป็น true หากรูปภาพไม่จำเป็นต้องมี
   }
 }, {
   tableName: 'product_details'
